@@ -786,13 +786,13 @@ files = [
 
 [[package]]
 name = "inventree"
-version = "0.17.2"
+version = "0.17.4"
 description = "Python interface for InvenTree inventory management system"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "inventree-0.17.2-py2.py3-none-any.whl", hash = "sha256:f596ebeb3cb4c6ed1b976353ac4eb53a0a8756cbb93c15ea755c25108e062382"},
-    {file = "inventree-0.17.2.tar.gz", hash = "sha256:bf3a74a448c085620b057db2bb19d3b48941099e182b8387423bbb2b24c9c461"},
+    {file = "inventree-0.17.4-py2.py3-none-any.whl", hash = "sha256:fb76cae6baaf9cd0b16187618dc29e98c131c3645f70b7d5aa22cea74fed35fa"},
+    {file = "inventree-0.17.4.tar.gz", hash = "sha256:a385e377b32d639011a689b413390c9c71168c2c301a729500d17e5064499c18"},
 ]
 
 [package.dependencies]
