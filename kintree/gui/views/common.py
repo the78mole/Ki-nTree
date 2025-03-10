@@ -238,7 +238,7 @@ class SwitchWithRefs(ft.Switch):
         )
 
 
-class DropdownWithSearch(ft.UserControl):
+class DropdownWithSearch(ft.Dropdown):
     '''Implements a dropdown with search box'''
 
     dropdown = None
