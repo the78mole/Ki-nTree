@@ -15,7 +15,7 @@ python = ">=3.9,<3.14"
 # digikey-api = "^1.0.0"
 digikey-api = { git = "https://github.com/hurricaneJoef/digikey-api.git", branch = "master" }
 setuptools = "^75.6.0"
-flet = "^0.24.1"
+flet = "^0.27.0"
 thefuzz = "^0.22.1"
 inventree = "^0.17.2"
 kiutils = "^1.4.8"
