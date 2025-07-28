@@ -24,7 +24,7 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - name: set up python ${{ matrix.python-version }}
         uses: actions/setup-python@v2
         with:
@@ -64,7 +64,7 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - name: Set up Python ${{ matrix.python-version }}
         uses: actions/setup-python@v2
         with:
@@ -139,7 +139,7 @@ jobs:
       - tests
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - name: Alter the version in pyproject.toml and overwrite __version__
         run: >
           GTAG=$(echo $REF | sed -e 's#.*/##') &&
