@@ -22,7 +22,7 @@ kiutils = "^1.4.8"
 mouser = "^0.1.6"
 multiprocess = "^0.70.17"
 pyyaml = "^6.0.2"
-validators = "^0.34.0"
+validators = "^0.35.0"
 wrapt_timeout_decorator = "^1.5.1"
 cloudscraper = "^1.2.71"
 
