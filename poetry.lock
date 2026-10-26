@@ -770,17 +770,21 @@ files = [
 
 [[package]]
 name = "inventree"
-version = "0.17.4"
+version = "0.25.0"
 description = "Python interface for InvenTree inventory management system"
 optional = false
-python-versions = ">=3.8"
+python-versions = ">=3.9"
 files = [
-    {file = "inventree-0.17.4-py2.py3-none-any.whl", hash = "sha256:fb76cae6baaf9cd0b16187618dc29e98c131c3645f70b7d5aa22cea74fed35fa"},
-    {file = "inventree-0.17.4.tar.gz", hash = "sha256:a385e377b32d639011a689b413390c9c71168c2c301a729500d17e5064499c18"},
+    {file = "inventree-0.25.0-py3-none-any.whl", hash = "sha256:618c153a7116d2ac6f3cf30c7a98dd9a871b5e4af9502b9f814dca2ce87650da"},
+    {file = "inventree-0.25.0.tar.gz", hash = "sha256:eb0361104a2f624070095dea7e6958f8e1126a5633450460d98a571cbef814ca"},
 ]
 
 [package.dependencies]
 requests = ">=2.27.0"
+urllib3 = ">=2.3.0"
+
+[package.extras]
+system-certs = ["pip-system-certs (>=4.0)"]
 
 [[package]]
 name = "invoke"
@@ -2109,4 +2113,4 @@ test = ["black", "codecov", "coloredlogs", "coverage", "flake8", "mypy", "pytest
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.14,<3.15"
-content-hash = "7b249a689a12ae6d08400d04d200cebf4a1f035623643c354f5daf25b42ca34d"
+content-hash = "826e8c0b8c7bba57ff97ae59040261e4b28f28550d2a2829253abbef2d259775"
