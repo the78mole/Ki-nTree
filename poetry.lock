@@ -2108,5 +2108,5 @@ test = ["black", "codecov", "coloredlogs", "coverage", "flake8", "mypy", "pytest
 
 [metadata]
 lock-version = "2.0"
-python-versions = ">=3.14,<3.15"
-content-hash = "7b249a689a12ae6d08400d04d200cebf4a1f035623643c354f5daf25b42ca34d"
+python-versions = ">=3.15,<3.16"
+content-hash = "842664562a59aa51a20ebad0aeec97055b0b3ea3a85dcd08cbf69d2c0df2cf21"
